@@ -130,6 +130,7 @@
             this.buttonShowDetails.TabIndex = 9;
             this.buttonShowDetails.Text = "Show Ticket Details";
             this.buttonShowDetails.UseVisualStyleBackColor = true;
+            this.buttonShowDetails.Click += new System.EventHandler(this.buttonShowDetails_Click);
             // 
             // Form1
             // 
