@@ -22,7 +22,7 @@ namespace _10.Cinema_Booking
         {
             Movie myMovie = new Ticket(textBoxMovie.Text, textBoxGenre.Text, textBoxSeat.Text, numericUpDownPrice.Value);
 
-            MessageBox.Show(myMovie.ShowDetails, "Movie Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(myMovie.ShowDetails(), "Movie Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

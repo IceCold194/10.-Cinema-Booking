@@ -19,7 +19,7 @@ namespace _10.Cinema_Booking
 
         public override string ShowDetails()
         {
-            return base.ShowDetails() + $"Seat: {Seat}\nPrice: {Price}";
+            return base.ShowDetails() + $"\nSeat: {Seat}\nPrice: {Price}";
         }
     }
 }
